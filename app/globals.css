@@ -1,5 +1,15 @@
 @import "tailwindcss";
 
+@layer base {
+    html {
+        color-scheme: light;
+    }
+    
+    html.dark {
+        color-scheme: dark;
+    }
+}
+
 @layer components {
     @keyframes marqueeScroll {
         0% {
