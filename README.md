@@ -1,13 +1,13 @@
 <div align="center">
-  <h1><img src="https://partpalace.com/favicon.ico" width="20" height="20" alt="PartPalace Favicon">
-   PartPalace</h1>
+  <h1><img src="https://gocartshop.in/favicon.ico" width="20" height="20" alt="GoCart Favicon">
+   GoCart</h1>
   <p>
-    An open-source multi-vendor parts marketplace built with Next.js and Tailwind CSS.
+    An open-source multi-vendor e-commerce platform built with Next.js and Tailwind CSS.
   </p>
   <p>
-    <a href="https://github.com/GreatStackDev/PartPalace/blob/main/LICENSE.md"><img src="https://img.shields.io/github/license/GreatStackDev/PartPalace?style=for-the-badge" alt="License"></a>
-    <a href="https://github.com/GreatStackDev/PartPalace/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge" alt="PRs Welcome"></a>
-    <a href="https://github.com/GreatStackDev/PartPalace/issues"><img src="https://img.shields.io/github/issues/GreatStackDev/PartPalace?style=for-the-badge" alt="GitHub issues"></a>
+    <a href="https://github.com/GreatStackDev/goCart/blob/main/LICENSE.md"><img src="https://img.shields.io/github/license/GreatStackDev/goCart?style=for-the-badge" alt="License"></a>
+    <a href="https://github.com/GreatStackDev/goCart/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge" alt="PRs Welcome"></a>
+    <a href="https://github.com/GreatStackDev/goCart/issues"><img src="https://img.shields.io/github/issues/GreatStackDev/goCart?style=for-the-badge" alt="GitHub issues"></a>
   </p>
 </div>
 
@@ -29,8 +29,6 @@
 - **Customer-Facing Storefront:** A beautiful and responsive user interface for customers to browse and purchase products.
 - **Vendor Dashboards:** Dedicated dashboards for vendors to manage products, view sales analytics, and track orders.
 - **Admin Panel:** A comprehensive dashboard for platform administrators to oversee vendors, products, and commissions.
-- **Dark/Light Theme:** Complete theme switching with user preference persistence.
-- **Modern UI:** Clean, responsive design with smooth animations and transitions.
 
 ## 🛠️ Tech Stack <a name="-tech-stack"></a>
 
@@ -38,7 +36,6 @@
 - **Styling:** Tailwind CSS
 - **UI Components:** Lucide React for icons
 - **State Management:** Redux Toolkit
-- **Theme System:** Custom dark/light mode implementation
 
 ## 🚀 Getting Started <a name="-getting-started"></a>
 
