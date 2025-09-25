@@ -1,12 +1,9 @@
-import { Server } from "inngest/next";
-import { Inngest } from "inngest";
-import { syncUserCreation, syncUserDeletion, syncUserUpdate } from "@/inngest/functions";
+import { serve } from "inngest/next"; 
+import { inngest } from "@/inngest/client"; 
+import { syncUserCreation, syncUserUpdate, syncUserDeletion } from "@/inngest/functions";
 
-export const  { GET  , POST , PUT } = Server({
-    client : Inngest,
-    function: [
-        syncUserCreation,
-        syncUserUpdate,
-        syncUserDeletion
-    ],
+
+export const { GET, POST, PUT } = serve({
+  client: inngest,
+  functions: [syncUserCreation, syncUserUpdate, syncUserDeletion],
 });

@@ -1,8 +1,8 @@
-import { ingest } from './client';
+import { inngest } from './client';
 import prisma from '@/lib/prisma';
 
 // Ingest Function to save user data to a database
-export const syncUserCreation = ingest.createFunction(
+export const syncUserCreation = inngest.createFunction(
   {
     id: 'sync-user-create',
     event: 'clerk/user.created',
@@ -23,7 +23,7 @@ export const syncUserCreation = ingest.createFunction(
 
 
 // Ingest Function to update user data in database
-export const syncUserUpdate = ingest.createFunction(
+export const syncUserUpdate = inngest.createFunction(
   {
     id: 'sync-user-update',
     event: 'clerk/user.updated',
@@ -43,7 +43,7 @@ export const syncUserUpdate = ingest.createFunction(
 );
 
 // Ingest Function to delete user from database
-export const syncUserDeletion = ingest.createFunction(
+export const syncUserDeletion = inngest.createFunction(
   {
     id: 'sync-user-delete',
     event: 'clerk/user.deleted',
