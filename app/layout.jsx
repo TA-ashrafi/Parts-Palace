@@ -4,12 +4,14 @@ import StoreProvider from "@/app/StoreProvider";
 import "./globals.css";
 import { ClerkProvider } from "@clerk/nextjs";
 
+
 const outfit = Outfit({ subsets: ["latin"], weight: ["400", "500", "600"] });
 
 export const metadata = {
     title: "Part Palace. - Shop smarter",
     description: "Part Palace. - Shop smarter",
 };
+
 
 export default function RootLayout({ children }) {
     return (
